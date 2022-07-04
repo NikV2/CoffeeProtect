@@ -1,0 +1,18 @@
+name: CoffeeProtect
+version: '${project.version}'
+main: me.nik.coffeeprotect.CoffeeProtect
+api-version: 1.13
+prefix: CoffeeProtect
+depend: [ ProtocolLib ]
+authors: [ Nik ]
+description: A plugin that prevents known exploits.
+commands:
+  coffeeprotect:
+    description: The main coffee protect command!
+permissions:
+  coffeeprotect.admin:
+    description: Gives access to all admin commands
+    default: op
+  coffeeprotect.alerts:
+    description: Gives access to enable alerts
+    default: op
